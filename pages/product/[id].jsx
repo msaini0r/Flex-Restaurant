@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "../../styles/Product.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const Product = () => {
   const [size, setSize] = useState(0);
